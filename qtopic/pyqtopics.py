@@ -53,7 +53,7 @@ class QTopic:
         name = soup.get_text()
         dict = {
             'topic': topic,
-            'name':  name#.encode("utf-8"),
+            'name':  name,#.encode("utf-8"),
         }
         return dict
 
